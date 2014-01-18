@@ -1,6 +1,7 @@
 # The DocPad Configuration File
 # It is simply a CoffeeScript Object which is parsed by CSON
 docpadConfig =
+  port:9778
 
   # Template Data
   # =============
@@ -12,16 +13,16 @@ docpadConfig =
     # Specify some site properties
     site:
       # The production url of our website
-      url: "http://website.com"
+      url: "http://www.saltfactorysports.com"
 
       # Here are some old site urls that you would like to redirect from
       oldUrls: [
         'www.website.com',
-        'website.herokuapp.com'
+        'saltfactorysports.azurewebsites.com'
       ]
 
       # The default title of our website
-      title: "Your Website"
+      title: "Salt Factory Sports"
 
       # The website description (for SEO)
       description: """
@@ -34,13 +35,13 @@ docpadConfig =
         """
 
       # The website author's name
-      author: "Your Name"
+      author: "Chris Mcv"
 
       # The website author's email
-      email: "your@email.com"
+      email: "chrismcv@live.com"
 
       # Your company's name
-      copyright: "© Your Company 2012"
+      copyright: "© Salt Factory Sports 2014"
 
 
     # Helper Functions
@@ -68,7 +69,7 @@ docpadConfig =
       @site.keywords.concat(@document.keywords or []).join(', ')
 
 
-  # Collections
+  # Collectionsyour
   # ===========
   # These are special collections that our website makes available to us
 
@@ -109,6 +110,15 @@ docpadConfig =
           res.redirect 301, newUrl+req.url
         else
           next()
+   # This contains all the configuration of minicms, used for the admin panel of our blog
+        # It allows you to define lists, forms and how to generate the final content    
+  plugins:
+    restapi:
+      securityToken: 'blah'
+
+
+
+
 
 
 # Export our DocPad Configuration

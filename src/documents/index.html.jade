@@ -2,22 +2,285 @@
 layout: 'default'
 title: 'Home'
 ---
-
-// Main hero unit for a primary marketing message or call to action.
-.hero-unit
-  h1 Welcome to your new site!
-  p: :markdown
-    We've copied over the [Twitter Bootstrap Skeleton](https://github.com/docpad/twitter-bootstrap.docpad) for you already, which is what you're currently viewing.
-    <br>
-    Step through the guide below and we'll walk you through the process of working with your first docpad website :-)
-
-// Example row of columns.
-.row
-  .span6
-    h2 Docpad
-    p DocPad takes that good ol' simple approach of writing files and wraps it with the best modern innovations, providing an awesome intuitive, liberating and empowering solution for HTML5 web development.</p>
-    p: a.btn(href="https://github.com/bevry/docpad") Visit Website
-  .span6
-    h2 Twitter Bootstrap
-    p Bootstrap is a toolkit from Twitter designed to kickstart development of webapps and sites. It includes base CSS and HTML for typography, forms, buttons, tables, grids, navigation, and more.</p>
-    p: a.btn(href="http://twitter.github.com/bootstrap/") Visit Website
+section#home
+      //
+         Sub Header 
+      .sub-header
+        //
+           Slider 
+        .bannercontainer
+          .banner
+            ul
+              li.slide1(data-transition='boxslide', data-slotamount='1')
+                img(src='/img/slider/01.jpg', alt='//')
+                .caption.lfb.ltb(data-x='600', data-y='120', data-speed='700', data-start='500', data-easing='easeOutBack')
+                  h2 In your School
+                .caption.lfb.ltb(data-x='600', data-y='120', data-speed='500', data-start='500', data-easing='easeOutBack')
+                  p Multi Sport
+                .caption.lfb.ltb(data-x='600', data-y='120', data-speed='300', data-start='500')
+                  a.see_work(href='#portfolio') Find out more
+              li.slide2(data-transition='boxslide', data-slotamount='1')
+                img(src='/img/slider/02.jpg', alt='//')
+                .caption.lfb.ltb.divA(data-x='100', data-y='bottom', data-speed='700', data-start='500', data-easing='easeOutBack')
+                  h2 In your community
+                  p
+                    | Host a Salt Factory Sports event in your community.
+                .caption.lfb.ltb.divB(data-x='440', data-y='bottom', data-speed='700', data-start='500', data-easing='easeOutBack')
+                  h2.invert Sports Academy
+                  p
+                    | Or let us run an academy for you
+                  button.button-gym Read More
+                .caption.lfb.ltb.divC(data-x='780', data-y='bottom', data-speed='700', data-start='500', data-easing='easeOutBack')
+                  h2 Accredited Coaches
+                  p
+                    | All coaching is carried out by a Salt Factory Sports approved coach.
+              li.slide3(data-transition='boxslide', data-slotamount='1')
+                img(src='/img/slider/04.jpg', alt='//')
+                .caption.lfb.ltb(data-x='100', data-y='95', data-speed='700', data-start='500', data-easing='easeOutBack')
+                  h2 Overseas Teams
+                .caption.lfb.ltb(data-x='100', data-y='75', data-speed='500', data-start='500', data-easing='easeOutBack')
+                  p
+                    | We're always looking for volunteers for our overseas teams.  They are an incredible opportunity to see new cultures.
+                .caption.lfb.ltb(data-x='100', data-y='75', data-speed='300', data-start='500')
+                  a.see_work(href='#portfolio') Sign Up 
+              li.slide1(data-transition='boxslide', data-slotamount='1')
+                img(src='/img/slider/05.jpg', alt='//')
+                .caption.lfb.ltb(data-x='600', data-y='120', data-speed='700', data-start='500', data-easing='easeOutBack')
+                  h2 Elite Athletes
+                .caption.lfb.ltb(data-x='600', data-y='120', data-speed='500', data-start='500', data-easing='easeOutBack')
+                  p 1 year internship
+                .caption.lfb.ltb(data-x='600', data-y='120', data-speed='300', data-start='500')
+                  a.see_work(href='#portfolio') sign up today
+              li.slide3(data-transition='boxslide', data-slotamount='1')
+                img(src='/img/slider/01.jpg', alt='//')
+                .caption.lfb.ltb(data-x='100', data-y='95', data-speed='700', data-start='500', data-easing='easeOutBack')
+                  h2 Support Us
+                .caption.lfb.ltb(data-x='100', data-y='75', data-speed='500', data-start='500', data-easing='easeOutBack')
+                  p
+                    | We're actively fundraising 
+                .caption.lfb.ltb(data-x='100', data-y='75', data-speed='300', data-start='500')
+                  a.see_work(href='#portfolio') See our trailer
+        //
+           End Slider 
+      //
+         Sub Header 
+      //
+         begin Intro 
+      article#intro.article-container
+        .container
+          .row
+            .col-md-10.col-md-offset-1
+              h2
+                strong Play | Believe | Live
+              p
+                | If you put yourself in a position where you have to stretch outside your comfort zone, then you are forced to expand your consciousness.
+              button.button-gym.big-button see our classes
+      //
+         end Intro 
+      //
+         begin new classes 
+      article.article-container
+        .container
+          .row
+            .col-md-12
+              h2.article-title Current Packages
+              span.line
+                span.sub-line
+              a.slider-control.pull-right.next(href='#new-classes', data-slide='next')
+              a.slider-control.pull-right.prev(href='#new-classes', data-slide='prev')
+              a.button-gym.normal-button.view-all.pull-right(href='classes.html') view all
+          .row
+            .new-classes
+              #new-classes.carousel.slide
+                //
+                   Wrapper for slides 
+                .carousel-inner
+                  .item.active
+                    .col-sm-6.col-md-3
+                      .new-class
+                        img(src='/img/classes/01.jpg', alt='//')
+                        .class-title
+                          .occult
+                            a.link(href='#')
+                          h3 6 week volleyball school
+                          p.occult Lorem ipsum dolor sit amet velum, consectetur adipiscing volutpat rutrum
+                    .col-sm-6.col-md-3
+                      .new-class
+                        img(src='/img/classes/01.jpg', alt='//')
+                        .class-title
+                          .occult
+                            a.link(href='#')
+                          h3 12 week basketball school
+                          p.occult Lorem ipsum dolor sit amet velum, consectetur adipiscing volutpat rutrum
+                    .col-sm-6.col-md-3
+                      .new-class
+                        img(src='/img/classes/01.jpg', alt='//')
+                        .class-title
+                          .occult
+                            a.link(href='#')
+                          h3 Multi Sport Workshop
+                          p.occult Lorem ipsum dolor sit amet velum, consectetur adipiscing volutpat rutrum
+                    .col-sm-6.col-md-3
+                      .new-class
+                        img(src='/img/classes/01.jpg', alt='//')
+                        .class-title
+                          .occult
+                            a.link(href='#')
+                          h3 Tailored Packages
+                          p.occult Lorem ipsum dolor sit amet velum, consectetur adipiscing volutpat rutrum
+                  .item
+                    .col-sm-6.col-md-3
+                      .new-class
+                        img(src='/img/classes/01.jpg', alt='//')
+                        .class-title
+                          .occult
+                            a.link(href='#')
+                          h3 Elite Coaching
+                          p.occult Lorem ipsum dolor sit amet velum, consectetur adipiscing volutpat rutrum
+                    .col-sm-6.col-md-3
+                      .new-class
+                        img(src='/img/classes/01.jpg', alt='//')
+                        .class-title
+                          .occult
+                            a.link(href='#')
+                          h3 Coach Development
+                          p.occult Lorem ipsum dolor sit amet velum, consectetur adipiscing volutpat rutrum
+      //
+         end new classes 
+      //
+         begin Featured Classes 
+      article.article-container
+        .container
+          .row
+            .col-xs-12
+              h2.headers Upcoming Community Events
+              span.line
+                span.sub-line
+              a.button-gym.normal-button.view-all.pull-right.no-margin(href='classes.html') view all
+          .row
+            .col-xs-3.col-sm-2.col-md-1
+              img(src='/img/featured-classes/ballet-cyan.png', alt='//')
+            .col-xs-9.col-sm-10.col-md-3.fc-container
+              h3 Let's Play Ball: Lisburn
+              p
+                | An "all family" event at Lisburn LeisurePlex, try volleyball, dodgeball and basketball.
+              a(href='#') Read more...
+            .col-xs-3.col-sm-2.col-md-1
+              img(src='/img/featured-classes/yoga-green.png', alt='//')
+            .col-xs-9.col-sm-10.col-md-3.fc-container
+              h3 Fundraiser
+              p
+                | Ut a molestie urna. Vestibulum malesuada, diam ut mollis varius, lorem urna euismod purus, ut varius est erat a orci.
+              a(href='#') Read more...
+            .col-xs-3.col-sm-2.col-md-1
+              img(src='/img/featured-classes/karate-green.png', alt='//')
+            .col-xs-9.col-sm-10.col-md-3.fc-container
+              h3 School Taster Night: South Down
+              p
+                | Ut a molestie urna. Vestibulum malesuada, diam ut mollis varius, lorem urna euismod purus, ut varius est erat a orci.
+              a(href='#') Read more...
+      //
+         end Featured Classes 
+      //
+         begin No pressure, no diamonds  / The Club Featured 
+      article.article-container
+        .container
+          .row
+            .col-md-7
+              h2.headers No pressure, no diamonds
+              span.line
+                span.sub-line
+              .tabbable.tabs-left
+                ul.nav.nav-tabs.col-xs-4
+                  //
+                      nav-tabs-sec" id="myTab"  nav-tabs-sec 
+                  li.active
+                    a(href='#outside-sec', data-toggle='tab')
+                      span.gym-icon.outside
+                      | Outside Sports
+                  li
+                    a(href='#video-sec', data-toggle='tab')
+                      span.gym-icon.video
+                      | Video Tour
+                  li
+                    a(href='#quiet-sec', data-toggle='tab')
+                      span.gym-icon.sports
+                      | Quiet Sports
+                  li
+                    a(href='#comunity-sec', data-toggle='tab')
+                      span.gym-icon.comunity
+                      | Sportive Comunity
+                  li
+                    a(href='#footbal-sec', data-toggle='tab')
+                      span.gym-icon.footbal
+                      | Footbal
+                .tab-content.col-xs-8
+                  #outside-sec.tab-pane.in.active
+                    p
+                      | 1Ut a molestie urna. Vestibulum malesuada, diam ut mollis varius, lorem urna euismod purus, ut varius est erat a orci. Sed ultricies elit eget venenatis tristique. Sed tempus egestas ante, vel ullamcorper nulla ultricies at.
+                    p
+                      | Maecenas pellentesque rhoncus egestas. Aenean molestie nisl eget semper pretium. Praesent adipiscing faucibus magna, eu vulbus magna, eu vul and putate ante volutpat volutpat and ulla facilisi.
+                    p
+                      | Maecenas pellentesque rhoncus egestas. Aenean molestie nisl eget semper pretium. Praesent adipiscing faucibus magna, eu vulbus magna, eu vul and putate ante volutpat volutpat and ulla facilisi. Maecenas pellentesque rhoncus egestas. Aenean molestie nisl eget semper pretium. Praesent adipiscing faucibus magna, eu vulbus magna, eu vul and putate ante volutpat volutpat and ulla facilisi.
+                  #video-sec.tab-pane.in
+                    p
+                      | 2Ut a molestie urna. Vestibulum malesuada, diam ut mollis varius, lorem urna euismod purus, ut varius est erat a orci. Sed ultricies elit eget venenatis tristique. Sed tempus egestas ante, vel ullamcorper nulla ultricies at.
+                    p
+                      | Maecenas pellentesque rhoncus egestas. Aenean molestie nisl eget semper pretium. Praesent adipiscing faucibus magna, eu vulbus magna, eu vul and putate ante volutpat volutpat and ulla facilisi.
+                    p
+                      | Maecenas pellentesque rhoncus egestas. Aenean molestie nisl eget semper pretium. Praesent adipiscing faucibus magna, eu vulbus magna, eu vul and putate ante volutpat volutpat and ulla facilisi.
+                  #quiet-sec.tab-pane.in
+                    p
+                      | 3 go ulum malesuada, diam ut mollis varius, lorem urna euismod purus, ut varius est erat a orci. Sed ultricies elit eget venenatis tristique. Sed tempus egestas ante, vel ullamcorper nulla ultricies at.
+                    p
+                      | Maecenas pellentesque rhoncus egestas. Aenean molestie nisl eget semper pretium. Praesent adipiscing faucibus magna, eu vulbus magna, eu vul and putate ante volutpat volutpat and ulla facilisi.
+                  #comunity-sec.tab-pane.in
+                    p
+                      | 4Ut a molestie urna. Vestibulum malesuada, diam ut mollis varius, lorem urna euismod purus, ut varius est erat a orci. Sed ultricies elit eget venenatis tristique. Sed tempus egestas ante, vel ullamcorper nulla ultricies at.
+                    p
+                      | Maecenas pellentesque rhoncus egestas. Aenean mnean molestie nissl eget semper pretium. Praesent adipiscing faucibus magna, eu vulbus magna, eu vul and putate ante volutpat volutpat and ulla facilisi.
+                  #footbal-sec.tab-pane.in
+                    p
+                      | 5Ut a molestie urna. Vestibulum malesuaollis varius, lorem urna euismod purus, ut varius est erat a orci. Sed ultricies elit eget venenatis tristique. Sed tempus egestas ante, vel ullamcorper nulla ultricies at.
+                    p
+                      | Maecenas pellentesque rhoncus egestas. Aenean molestie nisl eget semper pretium. Praesent adipiscing faucibus magna, eu vulbus magna, eu vul and putate ante volutpat volutpat and ulla facilisi.
+            .col-md-5
+              h2.headers The Club Features
+              span.line
+                span.sub-line
+              //
+                 begin Accordion 
+              #accordion2.accordion
+                .accordion-group
+                  .accordion-heading
+                    h5 Gym Fitness
+                    a.accordion-toggle(data-toggle='collapse', data-parent='#accordion2', href='#collapseOne') +
+                  #collapseOne.accordion-body.collapse.in
+                    .accordion-inner
+                      a.accordion-toggle(data-toggle='collapse', data-parent='#accordion2', href='#collapseOne') -
+                      h5 Indoor Cycling
+                      p
+                        | Ut a molestie urna. Vestibulum malesuada, diam ut mollis varius, lorem urna euismod purus, ut varius est erat a orci. Sed ultricies elit eget venenatis tristique. Sed tempus egestas ante, vel ullamcorper nulla ultricies at. Maecenas pellentesque rhoncus egestas. Aenean molestie nisl eget semper pretium. Praesent adipiscing faucibus magna, eu vulputate ante volutpat volutpat and ulla facilisi.
+                .accordion-group
+                  .accordion-heading
+                    h5 Yoga Pilates
+                    a.accordion-toggle(data-toggle='collapse', data-parent='#accordion2', href='#collapseTwo') +
+                  #collapseTwo.accordion-body.collapse
+                    .accordion-inner
+                      a.accordion-toggle(data-toggle='collapse', data-parent='#accordion2', href='#collapseOne') -
+                      h5 Indoor Cycling
+                      p
+                        | Ut a molestie urna. Vestibulum malesuada, diam ut mollis varius, lorem urna euismod purus, ut varius est erat a orci. Sed ultricies elit eget venenatis tristique. Sed tempus egestas ante, vel ullamcorper nulla ultricies at. Maecenas pellentesque rhoncus egestas. Aenean molestie nisl eget semper pretium. Praesent adipiscing faucibus magna, eu vulputate ante volutpat volutpat and ulla facilisi.
+                .accordion-group
+                  .accordion-heading
+                    h5 Cardio Fitness
+                    a.accordion-toggle(data-toggle='collapse', data-parent='#accordion2', href='#collapseThree') +
+                  #collapseThree.accordion-body.collapse
+                    .accordion-inner
+                      a.accordion-toggle(data-toggle='collapse', data-parent='#accordion2', href='#collapseOne') -
+                      h5 Indoor Cycling
+                      p
+                        | Ut a molestie urna. Vestibulum malesuada, diam ut mollis varius, lorem urna euismod purus, ut varius est erat a orci. Sed ultricies elit eget venenatis tristique. Sed tempus egestas ante, vel ullamcorper nulla ultricies at. Maecenas pellentesque rhoncus egestas. Aenean molestie nisl eget semper pretium. Praesent adipiscing faucibus magna, eu vulputate ante volutpat volutpat and ulla facilisi.
+      //
+         end No pressure, no diamonds  / The Club Featured 
+      //
