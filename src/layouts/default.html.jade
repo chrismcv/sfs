@@ -1,5 +1,5 @@
 - var scripts = getBlock('scripts')
-- var styles = getBlock('styles')
+-   var styles = getBlock('styles')
 
 //- Prettify Syntax Highlighting
 - scripts.add(["/vendor/prettify.js"])
@@ -19,81 +19,43 @@
 - styles.add(["/styles/style.css"])
 - scripts.add(["/scripts/script.js"])
 
-!!! 5
+doctype html
 html
   head
     //
-       Define Charset 
+       Define Charset
     meta(charset='utf-8')
     //
-       Page Title 
+       Page Title
     title Salt Factory Sports
-    //
-       Responsive Metatag 
+    //       Responsive Metatag
     meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
-    //
-       CSS 
+    //       CSS
     link(href='/css/bootstrap.min.css', rel='stylesheet')
     link(rel='stylesheet', type='text/css', href='rs-plugin/css/settings.css', media='screen')
     link(href='/css/styles.css', rel='stylesheet')
+    link(href='/styles/style.css', rel='stylesheet')
     link(href='/css/color/cyan.css', rel='stylesheet')
     link(href='/css/media-queries.css', rel='stylesheet')
-    //
-       HTML5 shim, for IE6-8 support of HTML5 elements 
+    //       HTML5 shim, for IE6-8 support of HTML5 elements
     //if lt IE 9
       script(src='http://html5shim.googlecode.com/svn/trunk/html5.js')
-    //
-       Media queries 
+    //       Media queries
     //if lt IE 9
       script(src='http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js')
   body
-    //
-       Header 
+    | <div id="fb-root"></div>
+    |<script>(function(d, s, id) {
+    |  var js, fjs = d.getElementsByTagName(s)[0];
+    |  if (d.getElementById(id)) return;
+    |  js = d.createElement(s); js.id = id;
+    |  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5";
+    |  fjs.parentNode.insertBefore(js, fjs);
+    |}(document, 'script', 'facebook-jssdk'));</script>
     header
-      //
-         Top Bar 
       .top-bar
         .container
           .row
-            //-ul.misc.pull-left
-              li.dropdown
-                a.dropdown-toggle(href='#')
-                  i.entypo-calendar
-                  | Opening Hours
-                ul
-                  li
-                    i.entypo-calendar
-                    | News
-                  li
-                    i.entypo-clock
-                    | Partners
-                  li
-                    i.entypo-location
-                    | Room 07, Center Plaza 15654
-                  li
-                    a(href='price.html') See Pricing Tables
-              li
-                a(href='#')
-                  i.entypo-phone
-                  | 07777 555 777
-              li
-                a(href='contact.html')
-                  i.entypo-mail
-                  | Contact Us
-            //-ul.social-header.pull-right
-              li
-                a(href='#')
-                  i.entypo-linkedin
-              li
-                a(href='#')
-                  i.entypo-facebook
-              li
-                a(href='#')
-                  i.entypo-twitter
-      //
-         End Top Bar 
-      //
-         Main Menu 
       .main-menu
         .main-menu-line
           .container
@@ -106,84 +68,93 @@ html
                     span.icon-bar
                     span.icon-bar
                   h1.logo
-                    a.navbar-brand(href='index.html')
-                      img(src='/img/logo-big.png', alt='Logo')
-                //
-                   Collect the nav links, forms, and other content for toggling 
+                    a.navbar-brand(href='/')
+                      img(src='/img/logo-big.png', alt='Logo' width="150")
                 .collapse.navbar-collapse.navbar-ex1-collapse
                   ul.nav.navbar-nav.navbar-right
                     li.active
                       a(href='/') Home
-                    li
-                      a(href='/pages/schools') Schools
                     li.dropdown
-                      a.dropdown-toggle(href='trainers.html') Communities
+                      a.dropdown-toggle About
                       ul
                         li
-                          a(href='trainers.html') All Trainers
+                          a(href="/pages/about") About Us
                         li
-                          a(href='single-trainer.html') Single Trainers
+                          a(href='/pages/about/staff') Our Staff
+                        li
+                          a(href='/pages/about/board') Our Board
+                        li
+                          a(href='/pages/about/partners') Our Partners
+                        li
+                          a(href='/pages/about/faith-statement') Our Faith Statement
                     li.dropdown
-                      a.dropdown-toggle(href='') Overseas
+                      a.dropdown-toggle What we do
                       ul
                         li
-                          a(href='/pages/overseas/Kenya') Kenya 2013
+                          a(href="/pages/church-community") Church Partnerships
+                        //- li
+                        //-   a(href='/pages/schools/primary') Primary Schools
+                        //- li
+                        //-   a(href='/pages/schools/post-primary') Post-Primary Schools
+                        //- li
+                        //-   a(href='/pages/communities') Community
                         li
-                          a(href='/pages/overseas/USA') USA
+                          a(href="/pages/camps-missions") Community Missions
+                        //- li
+                        //-     a(href='/pages/overseas/Kenya') Kenya 2014
+                        //- li.taller
+                        //-     a(href='/pages/overseas/England') Northern Ireland &amp; Scotland 2014
+                        //- li
+                        //-     a(href='/pages/overseas/Kenya') Kenya 2014 (January)
+                        //- li
+                        //-     a(href='/pages/overseas/England') England 2014
+                        //- li
+                        //-     a(href='/pages/overseas/Kenya') Kenya 2013
+                        //- li
+                        //-     a(href='/pages/overseas/Kenya') Kenya 2012
                         li
-                          a(href='/pages/overseas/Europe') Europe
-                        li
-                          a(href='/pages/overseas/Africa') Africa
-                        li
-                          a(href='single-class.html') Single Class
-                        li
-                          a(href='gallery-two.html') Gallery 2 col
-                        li
-                          a(href='gallery-three.html') Gallery 3 col
-                        li
-                          a(href='gallery-four.html') Gallery 4 col
-                        li
-                          a(href='single-news.html') Single News
+                          a(href='/pages/professional-sports') Team Sport
+                    li(style="background-color:limegreen;")
+                      a(href='/pages/internships') Join Us
                     li
-                      a(href='/pages/elite-teams') Elite Teams
+                        a(href='/pages/donate') Donate
                     li
-                      a(href='/pages/partners') Partners
-                //
-                   /.navbar-collapse 
-      //
-         End Main Menu 
-    //
-       End header 
-   
-    //
+                        a(href='/pages/contact') Contact
+
     section#content.content!= content
-    
+
     footer
       .container
         .row.misc
           .col-md-3
-            h3 About Salt Factory Sports
-            p We are a multi-sport charity seeking to introduce people to life with God.
-            p We love God.  And we love sport.
+            h3 Salt Factory Sports
+            p We are a Christian mission organisation who use sport as a way of engaging and evangelising our communities, and disciple Christian athletes to be the salt and light in their sport.
+            p
             ul.about
               li
                 i.entypo-location
                 | Lisburn UK
-              li
+              //-li
                 i.entypo-mobile
-                | (07755) 777 444
+                |
               li
                 i.entypo-mail
-                | hi@saltfactorysports.com
+                a(href="/pages/contact") Contact Us
+              li
+                label HMRC Charity Number
+                span &nbsp;NI00123
+              li
+                label Company Number
+                span &nbsp;NI611652
           .col-md-3
             h3 Useful Links
             ul.links
               li
-                a(href='#')
+                a(href='/pages/about')
                   i.entypo-right-open-mini
-                  | Meet the Team
+                  | About Us
               li
-                a(href='#')
+                a(href='/pages/overseas/Kenya')
                   i.entypo-right-open-mini
                   | Kenya Report 2013
               li
@@ -191,105 +162,52 @@ html
                   i.entypo-right-open-mini
                   | Elite Athletes
               li
-                a(href='#')
+                a(href='/pages/schools/primary')
                   i.entypo-right-open-mini
-                  | School Programmes
+                  | Schools
               li
-                a(href='#')
+                a(href='/pages/community')
                   i.entypo-right-open-mini
-                  | Community Events
-              li
-                a(href='#')
-                  i.entypo-right-open-mini
-                  | Even More
-          //-.col-md-3
-            h3 Newsletter
-            p Keep up with us by joining our newsletter
-            form(method='post', action='//', role='form')
-              .form-group
-                label.sr-only(for='name') Your Name
-                input#name.form-control(type='text', name='name', placeholder='Your name')
-              .form-group
-                label.sr-only(for='email') Email address
-                input#email.form-control(type='email', name='email', placeholder='Enter email')
-              button.button-gym Suscribe now
-          //-.col-md-3
+                  | Church Community
+          .col-md-3
             h3 Get Social
-            p Follow us on the Social Networks to let all the news and win disccounts!
+            p Follow us on facebook and twitter to keep up with what we're doing
             ul.social
               li
-                a(href='#')
+                a(href='https://www.facebook.com/saltfactorysports')
                   i.entypo-facebook
               li
-                a(href='#')
+                a(href='https://www.twitter.com/saltfactorysports')
                   i.entypo-twitter
               li
-                a(href='#')
-                  i.entypo-linkedin
+                a(href='https://www.instagram.com/saltfactorysports')
+                  i.entypo-instagrem
       .copyright
         .container
           p.pull-left
             | © All rights reserved. Salt Factory Sports.
             | This website was last updated at #{site.date}
-          //-ul.main-links.pull-right
-            li
-              a(href='#') Home
-            li
-              a(href='#') Classes
-            li
-              a(href='#') Trainers
-            li
-              a(href='#') Club
-            li
-              a(href='#') News
-            li
-              a(href='#') Price
-    //
-       End footer 
+    //       End footer
     a.scrollup(href='#')
       i.entypo-up-open
-    //
-       Javascript Files 
-    //
-       jQuery 
+    //       Javascript Files
+    //       jQuery
     script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js', type='text/javascript')
     script
       window.jQuery || document.write("<script src=\\"js/jquery-1.9.1.min.js\" type=\"text/javascript\"><\/script>")
-    //
-       Respond.j media queries for IE8 
+    //       Respond.j media queries for IE8
     script(src='/js/respond.min.js')
-    //
-       Bootstrap
+    //       Bootstrap
     script(src='/js/bootstrap.min.js', type='text/javascript')
-    //
-       Easing 
+    //       Easing
     script(type='text/javascript', src='/js/jquery.easing.min.js')
-    //
-       Placeholder.js http://widgetulous.com/placeholderjs/ 
+    //       Placeholder.js http://widgetulous.com/placeholderjs/
     script(type='text/javascript', src='/js/placeholder.js')
-    //
-       Retina.js 
+    //       Retina.js
     script(type='text/javascript', src='/js/retina.js')
-    //
-       jQuery REVOLUTION Slider  
+    //       jQuery REVOLUTION Slider
     script(type='text/javascript', src='rs-plugin/pluginsources/jquery.themepunch.plugins.min.js')
     script(type='text/javascript', src='rs-plugin/js/jquery.themepunch.revolution.min.js')
-    //
-       Custom site js
+    //       Custom site js
     script(src='/js/script.js', type='text/javascript')
-    //
-       End Javascript Files 
 
-//-    .navbar.navbar-fixed-top
-//-      .navbar-inner
-//-        .container
-//-          a.brand(href="/") Welcome
-//-          ul.nav
-//-            each doc in getCollection('pages').toJSON()
-//-              - clazz = (document.url === doc.url) ? 'active' : null
-//-              li(typeof="sioc:Page", about=doc.url, class=clazz)
-//-                a(href=doc.url, property="dc:title")= doc.title
-   
-
-    // Scripts
-    != scripts.toHTML()
