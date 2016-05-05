@@ -4,11 +4,8 @@ layout: page
 pageOrder: 1
 ---
 
-## Our Board
-
 Salt Factory Sports is a registered charity.  We are governed by a Board of Trustees.
 
-They are:
 
 | Chairmain | Chris Moffett |
 | Vice-Chairman | Martin Agnew |
@@ -18,9 +15,8 @@ They are:
 | | Mervyn Shannon |
 
 
-## Council of Reference
+We also have a Council of Reference.
 
-They are:
 
 | Rev. Andrew Thompson | (Elmwood Presbyterian) |
 | Jasper Rutherford | (Church Army / Summer Madness) |

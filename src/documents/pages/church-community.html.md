@@ -1,5 +1,5 @@
 ---
-title: Church and Community
+title: Community Missions
 layout: page
 ---
 - <a href="/pages/programmes/churches">Support of Churches</a>
