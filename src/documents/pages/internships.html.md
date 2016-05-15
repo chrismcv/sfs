@@ -6,7 +6,7 @@ pageOrder: 2
 
 #### Internships & Gap Years
 
-We run two internship programmes - one for 2 months over the summer and a gap-year from September to June each year.  If you're interested in joining us, please get in touch via the contact form.
+We run two internship programmes - one for 2 months over the summer and a gap-year from September to June each year.  If you're interested in joining us, please get in touch via the contact form or [read more here](/pages/opportunities/internship).
 
 #### Short-Term Missions
 

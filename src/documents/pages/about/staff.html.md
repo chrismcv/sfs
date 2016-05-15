@@ -19,4 +19,4 @@ I founded Salt Factory Sports, a Christian mission organisation, in 2010 and we 
 ### Raymond Magowan
 
 <img src='/pages/about/images/raymond.jpg' alt='Raymond at Summer Madness' width="500" style='width:500px; float:left; padding:16px;'></img>
-Raymond joined Salt Factory Sports in Summer 2015.
+Raymond joined Salt Factory Sports in summer 2015 having previously served for 40 years with Evangelical Ministries. He is married to Agnes, has two sons, Neil and David, two daughters in law, Courtney and Michelle and two grandchildren, Mollie and Max. He loves all kinds of sport and is thrilled that God has given him the opportunity of using it as a vehicle to share the good news of Jesus. He is a keen skier, has run a couple of marathons and is a lifelong supporter of Newcastle United FC.
