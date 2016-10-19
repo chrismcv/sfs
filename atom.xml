@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Salt Factory Sports</title>
+  <link href="http://www.saltfactorysports.com/atom.xml" rel="self"/>
+  <link href="http://www.saltfactorysports.com"/>
+  <updated>2016-10-19T19:27:06.995Z</updated>
+  <id>http://www.saltfactorysports.com</id>
+  <author>
+    <name>Chris Mcv</name>
+    <email>chrismcv@live.com</email>
+  </author>
+
+  
+    <entry>
+      <title>This is a Blog Post</title>
+      <link href="http://www.saltfactorysports.com//posts/hello"/>
+      <updated>2014-10-23T19:58:58.168Z</updated>
+      <id>http://www.saltfactorysports.com//posts/hello</id>
+      <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;!--Define Charset
+    --&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;!--Page Title
+    --&gt;
+    &lt;title&gt;Salt Factory Sports&lt;/title&gt;
+    &lt;!--       Responsive Metatag--&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, maximum-scale=1&quot;&gt;
+    &lt;!--       CSS--&gt;
+    &lt;link href=&quot;/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;rs-plugin/css/settings.css&quot; media=&quot;screen&quot;&gt;
+    &lt;link href=&quot;/css/styles.css&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;link href=&quot;/styles/style.css&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;link href=&quot;/css/color/cyan.css&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;link href=&quot;/css/media-queries.css&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;!--       HTML5 shim, for IE6-8 support of HTML5 elements--&gt;
+    &lt;!--if lt IE 9script(src='http://html5shim.googlecode.com/svn/trunk/html5.js')
+    --&gt;
+    &lt;!--       Media queries--&gt;
+    &lt;!--if lt IE 9script(src='http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js')
+    --&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div id=&quot;fb-root&quot;&gt;&lt;/div&gt;
+    &lt;script&gt;(function(d, s, id) {
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) return;
+     js = d.createElement(s); js.id = id;
+     js.src = &quot;//connect.facebook.net/en_GB/sdk.js#xfbml=1&amp;version=v2.5&quot;;
+     fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));&lt;/script&gt;
+    &lt;header&gt;
+      &lt;div class=&quot;top-bar&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+          &lt;div class=&quot;row&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;main-menu&quot;&gt;
+        &lt;div class=&quot;main-menu-line&quot;&gt;
+          &lt;div class=&quot;container&quot;&gt;
+            &lt;div class=&quot;row&quot;&gt;
+              &lt;nav role=&quot;navigation&quot; class=&quot;navbar&quot;&gt;
+                &lt;div class=&quot;navbar-header&quot;&gt;
+                  &lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.navbar-ex1-collapse&quot; class=&quot;navbar-toggle&quot;&gt;&lt;span class=&quot;sr-only&quot;&gt;Toggle navigation&lt;/span&gt;&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;&lt;/button&gt;
+                  &lt;h1 class=&quot;logo&quot;&gt;&lt;a href=&quot;/&quot; class=&quot;navbar-brand&quot;&gt;&lt;img src=&quot;/img/logo-big.png&quot; alt=&quot;Logo&quot; width=&quot;150&quot;&gt;&lt;/a&gt;&lt;/h1&gt;
+
+                &lt;/div&gt;
+                &lt;div class=&quot;collapse navbar-collapse navbar-ex1-collapse&quot;&gt;
+                  &lt;ul class=&quot;nav navbar-nav navbar-right&quot;&gt;
+                    &lt;li class=&quot;&quot;&gt;&lt;a href=&quot;/&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class=&quot;dropdown &quot;&gt;&lt;a class=&quot;dropdown-toggle&quot;&gt;About&lt;/a&gt;
+                      &lt;ul&gt;
+                        &lt;li&gt;&lt;a href=&quot;/pages/about/&quot;&gt;About Us&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=&quot;/pages/about/staff/&quot;&gt;Our Staff&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=&quot;/pages/about/board/&quot;&gt;Our Board&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=&quot;/pages/about/partners/&quot;&gt;Our Partners&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=&quot;/pages/about/faith-statement/&quot;&gt;Our Faith Statement&lt;/a&gt;&lt;/li&gt;
+                      &lt;/ul&gt;
+                    &lt;/li&gt;
+                    &lt;li class=&quot;dropdown &quot;&gt;&lt;a class=&quot;dropdown-toggle&quot;&gt;What we do&lt;/a&gt;
+                      &lt;ul&gt;
+                        &lt;li&gt;&lt;a href=&quot;/pages/church-community/&quot;&gt;Church Partnerships&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=&quot;/pages/camps-missions/&quot;&gt;Community Missions&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=&quot;/pages/professional-sports/&quot;&gt;Team Sport Missions&lt;/a&gt;&lt;/li&gt;
+                      &lt;/ul&gt;
+                    &lt;/li&gt;
+                    &lt;li style=&quot;background-color:limegreen;&quot; class=&quot;&quot;&gt;&lt;a href=&quot;/pages/internships/&quot;&gt;Join Us&lt;/a&gt;&lt;/li&gt;
+                    &lt;li style=&quot;background-color:#C7C752;&quot; class=&quot;&quot;&gt;&lt;a href=&quot;/pages/donate/&quot;&gt;Donate&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class=&quot;&quot;&gt;&lt;a href=&quot;/pages/contact/&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+                  &lt;/ul&gt;
+                &lt;/div&gt;
+              &lt;/nav&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/header&gt;
+    &lt;section id=&quot;content&quot; class=&quot;content&quot;&gt;
+      &lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;&lt;h1&gt;This is a Blog Post&lt;/h1&gt;&lt;div class=&quot;post-content&quot;&gt;&lt;p&gt;This is a &lt;strong&gt;blog post&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/article&gt;&lt;footer&gt;&lt;/footer&gt;
+    &lt;/section&gt;
+    &lt;footer&gt;
+      &lt;div class=&quot;container&quot;&gt;
+        &lt;div class=&quot;row misc&quot;&gt;
+          &lt;div class=&quot;col-md-3&quot;&gt;
+            &lt;h3&gt;Salt Factory Sports&lt;/h3&gt;
+            &lt;p&gt;Using sport as an effective means of bringing people together, building relationships and creating opportunities for evangelism and discipleship.&lt;/p&gt;
+            &lt;ul class=&quot;about&quot;&gt;
+              &lt;li&gt;&lt;i class=&quot;entypo-location&quot;&gt;&lt;/i&gt;Lisburn UK&lt;/li&gt;
+              &lt;li&gt;&lt;i class=&quot;entypo-mail&quot;&gt;&lt;/i&gt;&lt;a href=&quot;/pages/contact&quot;&gt;Contact Us&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;
+                &lt;label&gt;HMRC Charity Number&lt;/label&gt;&lt;span&gt;&amp;nbsp;NI00123&lt;/span&gt;
+              &lt;/li&gt;
+              &lt;li&gt;
+                &lt;label&gt;Company Number&lt;/label&gt;&lt;span&gt;&amp;nbsp;NI611652&lt;/span&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;col-md-3&quot;&gt;
+            &lt;h3&gt;Get Social&lt;/h3&gt;
+            &lt;p&gt;Follow us on facebook and twitter to keep up with what we're doing&lt;/p&gt;
+            &lt;ul class=&quot;social&quot;&gt;
+              &lt;li style=&quot;margin-right:10px&quot;&gt;&lt;a href=&quot;https://www.facebook.com/saltfactorysports&quot;&gt;&lt;i class=&quot;entypo-facebook&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+              &lt;li style=&quot;margin-right:10px&quot;&gt;&lt;a href=&quot;https://www.twitter.com/saltfactorysports&quot;&gt;&lt;i class=&quot;entypo-twitter&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+              &lt;li style=&quot;margin-right:10px&quot;&gt;&lt;a href=&quot;https://www.instagram.com/saltfactorysports&quot;&gt;&lt;i class=&quot;entypo-instagrem&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;copyright&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+          &lt;p class=&quot;pull-left&quot;&gt;
+            © All rights reserved. Salt Factory Sports.
+            This website was last updated at
+          &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/footer&gt;
+    &lt;!--       End footer--&gt;&lt;a href=&quot;#&quot; class=&quot;scrollup&quot;&gt;&lt;i class=&quot;entypo-up-open&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;!--       Javascript Files--&gt;
+    &lt;!--       jQuery--&gt;
+    &lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+    &lt;script&gt;window.jQuery || document.write(&quot;&lt;script src=\&quot;js/jquery-1.9.1.min.js\&quot; type=\&quot;text/javascript\&quot;&gt;&lt;\/script&gt;&quot;)&lt;/script&gt;
+    &lt;!--       Respond.j media queries for IE8--&gt;
+    &lt;script src=&quot;/js/respond.min.js&quot;&gt;&lt;/script&gt;
+    &lt;!--       Bootstrap--&gt;
+    &lt;script src=&quot;/js/bootstrap.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+    &lt;!--       Easing--&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;/js/jquery.easing.min.js&quot;&gt;&lt;/script&gt;
+    &lt;!--       Placeholder.js http://widgetulous.com/placeholderjs/--&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;/js/placeholder.js&quot;&gt;&lt;/script&gt;
+    &lt;!--       Retina.js--&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;/js/retina.js&quot;&gt;&lt;/script&gt;
+    &lt;!--       jQuery REVOLUTION Slider--&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;rs-plugin/pluginsources/jquery.themepunch.plugins.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;rs-plugin/js/jquery.themepunch.revolution.min.js&quot;&gt;&lt;/script&gt;
+    &lt;!--       Custom site js--&gt;
+    &lt;script src=&quot;/js/script.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+
+&lt;!--
+- var scripts = getBlock('scripts')
+-   var styles = getBlock('styles')
+
+//- Prettify Syntax Highlighting
+- scripts.add([&quot;/vendor/prettify.js&quot;])
+- styles.add([&quot;/vendor/prettify.css&quot;])
+
+//- jQuery
+- scripts.add([&quot;/vendor/jquery.js&quot;])
+
+//- Bootstrap
+- scripts.add([&quot;/vendor/twitter-bootstrap/js/bootstrap.js&quot;])
+- styles.add([&quot;/vendor/twitter-bootstrap/css/bootstrap.css&quot;,&quot;/vendor/twitter-bootstrap/css/bootstrap-responsive.css&quot;])
+
+//- Other Scripts
+- scripts.add([&quot;/vendor/log.js&quot;,&quot;/vendor/modernizr.js&quot;])
+
+//- User
+- styles.add([&quot;/styles/style.css&quot;])
+- scripts.add([&quot;/scripts/script.js&quot;])
+--&gt;</content>
+    </entry>
+  
+</feed>
